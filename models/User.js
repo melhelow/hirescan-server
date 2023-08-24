@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
+
 const bcrypt = require('bcrypt');
 
 const userSchema = new Schema({
@@ -18,11 +19,13 @@ const userSchema = new Schema({
         type: String,
         required: true,
     },
-    savedReviews: [{
+    savedReviews: [
+        {
         type: Schema.Types.ObjectId,
         ref: 'Review',
         required: true
-    }],
+    }
+],
 });
 
     userSchema.pre('save', async function (next) {
