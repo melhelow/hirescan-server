@@ -1,0 +1,112 @@
+[
+    {
+        "username": "JohnDoe",
+        "company": "ABC Inc.",
+        "personInCharge": "Jane Smith",
+        "telephone": 1234567890,
+        "email": "john.doe@example.com",
+        "website": "www.abcinc.com",
+        "address": "123 Main St, City, Country",
+        "review": "Great experience with the company. Excellent service!",
+        "date": "2023-08-01"
+    },
+    {
+        "username": "JaneSmith",
+        "company": "XYZ Corp.",
+        "personInCharge": "John Doe",
+        "telephone": 9876543210,
+        "email": "jane.smith@example.com",
+        "website": "www.xyzcorp.com",
+        "address": "456 Elm St, Town, Country",
+        "review": "Impressed by the professionalism of the team.",
+        "date": "2023-08-05"
+    },
+    {
+        "username": "MikeJohnson",
+        "company": "Tech Solutions Ltd.",
+        "personInCharge": "Sarah Brown",
+        "telephone": 5551234567,
+        "email": "mike.johnson@example.com",
+        "website": "www.techsolutions.com",
+        "address": "789 Oak Rd, Village, Country",
+        "review": "Innovative products and exceptional customer support.",
+        "date": "2023-08-10"
+    },
+    {
+        "username": "EmilyClark",
+        "company": "Global Innovations",
+        "personInCharge": "David Wilson",
+        "telephone": 8889876543,
+        "email": "emily.clark@example.com",
+        "website": "www.globalinnovations.com",
+        "address": "321 Maple Ave, Town, Country",
+        "review": "Highly recommend their services. Thumbs up!",
+        "date": "2023-08-15"
+    },
+    {
+        "username": "AlexMiller",
+        "company": "GreenTech Solutions",
+        "personInCharge": "Olivia Parker",
+        "telephone": 2225558888,
+        "email": "alex.miller@example.com",
+        "website": "www.greentech.com",
+        "address": "555 Pine St, City, Country",
+        "review": "Eco-friendly approach and top-notch quality.",
+        "date": "2023-08-20"
+    },
+    {
+        "username": "SarahTurner",
+        "company": "Innovate Now",
+        "personInCharge": "Michael White",
+        "telephone": 3334445555,
+        "email": "sarah.turner@example.com",
+        "website": "www.innovatenow.com",
+        "address": "222 Cedar Rd, Town, Country",
+        "review": "Impressive solutions that exceed expectations.",
+        "date": "2023-08-25"
+    },
+    {
+        "username": "RobertHarris",
+        "company": "DataTech Solutions",
+        "personInCharge": "Emily Taylor",
+        "telephone": 7778889999,
+        "email": "robert.harris@example.com",
+        "website": "www.datatech.com",
+        "address": "777 Birch Blvd, City, Country",
+        "review": "Data-driven insights that drive success.",
+        "date": "2023-08-30"
+    },
+    {
+        "username": "AvaJohnson",
+        "company": "HealthFirst Clinic",
+        "personInCharge": "Dr. Mark Davis",
+        "telephone": 1112223333,
+        "email": "ava.johnson@example.com",
+        "website": "www.healthfirstclinic.com",
+        "address": "123 Oak Ave, Village, Country",
+        "review": "Caring staff and excellent medical care.",
+        "date": "2023-09-05"
+    },
+    {
+        "username": "JamesSmith",
+        "company": "Tech Innovators",
+        "personInCharge": "Sophia Martin",
+        "telephone": 4445556666,
+        "email": "james.smith@example.com",
+        "website": "www.techinnovators.com",
+        "address": "456 Elm St, City, Country",
+        "review": "Cutting-edge technology that delivers results.",
+        "date": "2023-09-10"
+    },
+    {
+        "username": "OliviaBrown",
+        "company": "Fashion Trends",
+        "personInCharge": "Emma Wilson",
+        "telephone": 8889990000,
+        "email": "olivia.brown@example.com",
+        "website": "www.fashiontrends.com",
+        "address": "789 Maple Rd, Town, Country",
+        "review": "Stylish and trendy designs for all occasions.",
+        "date": "2023-09-15"
+    }
+]

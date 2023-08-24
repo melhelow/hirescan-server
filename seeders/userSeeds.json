@@ -1,0 +1,62 @@
+[
+    {
+        "username": "user1",
+        "email": "user1@example.com",
+        "password": "user1password",
+        "savedReviews": []
+    },
+    {
+        "username": "user2",
+        "email": "user2@example.com",
+        "password": "user2password",
+        "savedReviews": []
+    },
+    {
+        "username": "user3",
+        "email": "user3@example.com",
+        "password": "user3password",
+        "savedReviews": []
+    },
+    {
+        "username": "user4",
+        "email": "user4@example.com",
+        "password": "user4password",
+        "savedReviews": []
+    },
+    {
+        "username": "user5",
+        "email": "user5@example.com",
+        "password": "user5password",
+        "savedReviews": []
+    },
+    {
+        "username": "user6",
+        "email": "user6@example.com",
+        "password": "user6password",
+        "savedReviews": []
+    },
+    {
+        "username": "user7",
+        "email": "user7@example.com",
+        "password": "user7password",
+        "savedReviews": []
+    },
+    {
+        "username": "user8",
+        "email": "user8@example.com",
+        "password": "user8password",
+        "savedReviews": []
+    },
+    {
+        "username": "user9",
+        "email": "user9@example.com",
+        "password": "user9password",
+        "savedReviews": []
+    },
+    {
+        "username": "user10",
+        "email": "user10@example.com",
+        "password": "user10password",
+        "savedReviews": []
+    }
+]
