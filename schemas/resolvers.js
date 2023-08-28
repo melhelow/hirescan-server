@@ -16,8 +16,8 @@ const resolvers = {
         getReview:async (parent, args) => {
             return await Review.findById(args.id);
         },
-        getCompanyById: async (parent, args) => {
-            return await Review.findById(args.id);
+        getCompany: async (_,{company}) => {
+            return await Review.find({company});
         },
         getCompanyByNameAndReview: async (_,{company,review }) => {
             return await Review.find({company,review});
