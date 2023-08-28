@@ -19,7 +19,7 @@ const reviewSchema = new Schema({
         trim: true
     },
     telephone: {
-        type: Number,
+        type: String,
         required: false,
         trim: true
     },

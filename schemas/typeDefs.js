@@ -27,9 +27,9 @@ const typeDefs = gql`
     }
 
     type Query {
-    getUser(username: String!): User
+    getUser(id: ID!): User
     getAllUsers: [User]
-    getReviewById(id: ID!): Review
+    getReviewById(_id: ID!): Review
     getCompanyById(id: ID!): Review
     getCompanyByNameAndReview(company: String!, review: String!): [Review]
     }

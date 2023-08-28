@@ -11,13 +11,13 @@ const resolvers = {
             return User.find();
         },
         getReviewById: async (parent, args) => {
-            return Review.findById(args.id);
+            return await Review.findById(args.id);
         },
         getCompanyById: async (parent, args) => {
-            return Review.findById(args.id);
+            return await Review.findById(args.id);
         },
         getCompanyByNameAndReview: async (_,{company,review }) => {
-            return Review.find({company,review});
+            return await Review.find({company,review});
         },
     },
     Mutation: {
