@@ -10,8 +10,8 @@ const resolvers = {
         getAllUsers: async () => {
             return User.find();
         },
-        getReviewById: async (parent, args) => {
-            return await Review.findById(args.id);
+        getAllReviews: async (parent, args) => {
+            return await Review.find();
         },
         getCompanyById: async (parent, args) => {
             return await Review.findById(args.id);
