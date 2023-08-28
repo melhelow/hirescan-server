@@ -16,12 +16,33 @@ const resolvers = {
         getReview:async (parent, args) => {
             return await Review.findById(args.id);
         },
-        getCompany: async (_,{company}) => {
+        getCompanyByName: async (_, { company }) => {
             return await Review.find({company});
         },
-        getCompanyByNameAndReview: async (_,{company,review }) => {
-            return await Review.find({company,review});
+        getCompanyById:async (parent, args) => {
+            return await Review.findById(args.id);
         },
+        getAllCompanies: async (parent, args) => {
+            return await Review.find();
+        },
+        getCompanyByEmail: async (_,{email}) => {
+            return await Review.find({email});
+        },
+
+        getCompanyByTelephone: async (_, { telephone }) => {
+            return await Review.find({ telephone });
+        },
+        getCompanyByPersonInCharge: async (_,{ personInCharge }) => {
+            return await Review.find({ personInCharge });
+        },
+        // getCompanyByPersonInChargeAndTelephone: async (_,{personInCharge,telephone}) => {
+        //     return await Review.find({personInCharge,telephone});
+        // },
+    
+
+        // getCompanyByNameAndReview: async (_,{company,review }) => {
+        //     return await Review.find({company,review});
+        // },
     },
     Mutation: {
         addUser: async (parent, { username, email, password }) => {

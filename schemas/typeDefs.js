@@ -31,11 +31,14 @@ const typeDefs = gql`
     getAllUsers: [User]
     getAllReviews: [Review]
     getReview(id: ID!): Review
-    getCompany(company: String!): [Review]
+    getCompanyByName(company: String!): [Review]
     getCompanyById(id: ID!): Review
-    getCompanyByNameAndReview(company: String!, review: String!): [Review]
-    }
-
+    getCompanyByEmail(email: String!): [Review]
+    getCompanyByTelephone(telephone: String!): [Review]
+    getCompanyByPersonInCharge(personInCharge: String!): [Review]
+    getAllCompanies: [Review]
+    
+}
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         addReview(username: String!, company: String!, personInCharge: String!, telephone: String!, email: String!, website: String!, address: String!, review: String!): Review
