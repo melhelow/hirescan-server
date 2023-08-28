@@ -29,20 +29,13 @@ const resolvers = {
             return await Review.find({email});
         },
 
-        getCompanyByTelephone: async (_, { telephone }) => {
-            return await Review.find({ telephone });
+        getCompanyByTelephone: async (_, {telephone}) => {
+            return await Review.find({telephone} );
         },
-        getCompanyByPersonInCharge: async (_,{ personInCharge }) => {
-            return await Review.find({ personInCharge });
+        getCompanyByPersonInCharge: async (_,{ personInCharge}) => {
+            return await Review.find({personInCharge});
         },
-        // getCompanyByPersonInChargeAndTelephone: async (_,{personInCharge,telephone}) => {
-        //     return await Review.find({personInCharge,telephone});
-        // },
-    
-
-        // getCompanyByNameAndReview: async (_,{company,review }) => {
-        //     return await Review.find({company,review});
-        // },
+   
     },
     Mutation: {
         addUser: async (parent, { username, email, password }) => {

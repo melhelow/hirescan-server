@@ -37,6 +37,7 @@ const typeDefs = gql`
     getCompanyByTelephone(telephone: String!): [Review]
     getCompanyByPersonInCharge(personInCharge: String!): [Review]
     getAllCompanies: [Review]
+  
     
 }
     type Mutation {

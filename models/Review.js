@@ -19,9 +19,12 @@ const reviewSchema = new Schema({
         trim: true
     },
     telephone: {
-        type: String,
+        type: Number,
         required: true,
-        trim: true
+        min: 0,
+        default: 1
+       
+
     },
     email: {
         type: String,
