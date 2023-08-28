@@ -13,6 +13,9 @@ const resolvers = {
         getAllReviews: async (parent, args) => {
             return await Review.find();
         },
+        getReview:async (parent, args) => {
+            return await Review.findById(args.id);
+        },
         getCompanyById: async (parent, args) => {
             return await Review.findById(args.id);
         },
