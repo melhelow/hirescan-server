@@ -44,7 +44,7 @@ const typeDefs = gql`
         addUser(username: String!, email: String!, password: String!): Auth
         addReview(username: String!, company: String!, personInCharge: String!, telephone: String!, email: String!, website: String!, address: String!, review: String!): Review
         login(email: String!, password: String!): Auth
-        removeReview(reviewId: ID!): Boolean
+        removeReview(_id:ID!): Boolean
     }
 `;
 

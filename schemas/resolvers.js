@@ -70,12 +70,14 @@ const resolvers = {
             const token = signToken(user);
             return { token, user };
         },
-        removeReview: async (parent, { _Id },context) => {
+        removeReview: async (parent, { _id }, context) => {
             if (context.user) {
-                const review = await Review.findByIdAndRemove({_Id, username: context.user.username});
+                const review = await Review.findOneAndRemove({_id, username: context.user.username});
                 return !!review;
+            } else {
+                throw new AuthenticationError("You need to be logged in!");
             }
-            throw new AuthenticationError("You need to be logged in!");
+            
         },
     },
 };

@@ -32,12 +32,12 @@ const reviewSchema = new Schema({
     },
     website: {
         type: String,
-        required: false,
+        required: true,
         trim: true
     },
     address: {
         type: String,
-        required: false,
+        required: true,
         trim: true
     },
     review: {

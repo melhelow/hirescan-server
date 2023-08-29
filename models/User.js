@@ -39,7 +39,7 @@ const userSchema = new Schema({
     userSchema.methods.isCorrectPassword = async function (password) {
         return await bcrypt.compare(password, this.password);
     };
-    userSchema.virtual('reviewCount').get(function () {
+    userSchema.virtual('numSavedReviews').get(function () {
         return this.savedReviews.length;
     });
 
