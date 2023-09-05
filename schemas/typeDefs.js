@@ -31,11 +31,8 @@ const typeDefs = gql`
     getAllUsers: [User]
     getAllReviews: [Review]
     getReview(id: ID!): Review
-    getCompanyByName(company: String!): [Review]
+    getCompanyByNameAndReview(company: String!, review: String! ): [Review]
     getCompanyById(id: ID!): Review
-    getCompanyByEmail(email: String!): [Review]
-    getCompanyByTelephone(telephone: String!): [Review]
-    getCompanyByPersonInCharge(personInCharge: String!): [Review]
     getAllCompanies: [Review]
   
     
